@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05030f" />
+      <stop offset="60%" stop-color="#130c33" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg3)" />
+  <!-- Node Graph Connections -->
+  <path d="M280 337 C420 200, 460 200, 600 220" fill="none" stroke="#22d3ee" stroke-width="3" />
+  <path d="M280 337 C420 475, 460 475, 600 455" fill="none" stroke="#8b5cf6" stroke-width="3" />
+  <path d="M600 220 C740 220, 780 337, 920 337" fill="none" stroke="#f472b6" stroke-width="3" />
+  <path d="M600 455 C740 455, 780 337, 920 337" fill="none" stroke="#22d3ee" stroke-width="3" />
+  <!-- Nodes -->
+  <rect x="150" y="277" width="220" height="120" rx="18" fill="#0b0720" stroke="#22d3ee" stroke-width="2.5" />
+  <text x="180" y="325" fill="#22d3ee" font-family="monospace" font-size="15">WEBHOOK STREAM</text>
+  <text x="180" y="358" fill="#f1f5f9" font-family="sans-serif" font-weight="bold" font-size="20">Telemetry Ingest</text>
+  <rect x="490" y="160" width="220" height="120" rx="18" fill="#0b0720" stroke="#8b5cf6" stroke-width="2.5" />
+  <text x="520" y="208" fill="#a78bfa" font-family="monospace" font-size="15">ANOMALY ENGINE</text>
+  <text x="520" y="240" fill="#f1f5f9" font-family="sans-serif" font-weight="bold" font-size="20">Spectral Classifier</text>
+  <rect x="490" y="395" width="220" height="120" rx="18" fill="#0b0720" stroke="#f472b6" stroke-width="2.5" />
+  <text x="520" y="443" fill="#f472b6" font-family="monospace" font-size="15">AUTO-REMEDIATION</text>
+  <text x="520" y="475" fill="#f1f5f9" font-family="sans-serif" font-weight="bold" font-size="20">Cluster Self-Heal</text>
+  <rect x="830" y="277" width="220" height="120" rx="18" fill="#0b0720" stroke="#fbbf24" stroke-width="2.5" />
+  <text x="860" y="325" fill="#fbbf24" font-family="monospace" font-size="15">COMMAND DISPATCH</text>
+  <text x="860" y="358" fill="#f1f5f9" font-family="sans-serif" font-weight="bold" font-size="20">Mission Control Bot</text>
+</svg>

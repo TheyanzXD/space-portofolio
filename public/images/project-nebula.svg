@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090518" />
+      <stop offset="50%" stop-color="#110a2e" />
+      <stop offset="100%" stop-color="#051329" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg1)" />
+  <!-- Grid Lines -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="135" x2="1200" y2="135" />
+    <line x1="0" y1="270" x2="1200" y2="270" />
+    <line x1="0" y1="405" x2="1200" y2="405" />
+    <line x1="0" y1="540" x2="1200" y2="540" />
+    <line x1="240" y1="0" x2="240" y2="675" />
+    <line x1="480" y1="0" x2="480" y2="675" />
+    <line x1="720" y1="0" x2="720" y2="675" />
+    <line x1="960" y1="0" x2="960" y2="675" />
+  </g>
+  <!-- Dashboard Frame -->
+  <rect x="90" y="65" width="1020" height="545" rx="20" fill="#0b0720" stroke="#ffffff" stroke-opacity="0.14" stroke-width="2" />
+  <!-- Top Bar -->
+  <rect x="90" y="65" width="1020" height="52" rx="20" fill="#130c33" />
+  <circle cx="126" cy="91" r="6" fill="#f472b6" />
+  <circle cx="148" cy="91" r="6" fill="#fbbf24" />
+  <circle cx="170" cy="91" r="6" fill="#22d3ee" />
+  <text x="205" y="96" fill="#94a3b8" font-family="monospace" font-size="14">NEBULA CLOUD TELEMETRY // ORBITAL CLUSTER CONTROL</text>
+  <!-- Left Orbital Visualization Panel -->
+  <rect x="125" y="145" width="560" height="430" rx="14" fill="#070412" stroke="#8b5cf6" stroke-opacity="0.3" />
+  <circle cx="405" cy="360" r="145" fill="none" stroke="#8b5cf6" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="8 6" />
+  <circle cx="405" cy="360" r="95" fill="none" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.5" />
+  <circle cx="405" cy="360" r="36" fill="url(#accent1)" />
+  <circle cx="550" cy="360" r="10" fill="#22d3ee" />
+  <circle cx="335" cy="295" r="8" fill="#f472b6" />
+  <circle cx="310" cy="470" r="9" fill="#a78bfa" />
+  <!-- Right Metric Cards -->
+  <rect x="715" y="145" width="360" height="130" rx="14" fill="#110b29" stroke="#22d3ee" stroke-opacity="0.3" />
+  <text x="745" y="185" fill="#94a3b8" font-family="sans-serif" font-size="14">THROUGHPUT JARINGAN SATELIT</text>
+  <text x="745" y="235" fill="#f1f5f9" font-family="monospace" font-weight="bold" font-size="38">99.984%</text>
+  <rect x="715" y="295" width="360" height="130" rx="14" fill="#110b29" stroke="#8b5cf6" stroke-opacity="0.3" />
+  <path d="M745 395 L795 360 L845 375 L905 330 L965 348 L1035 315" fill="none" stroke="url(#accent1)" stroke-width="4" stroke-linecap="round" />
+  <rect x="715" y="445" width="360" height="130" rx="14" fill="#110b29" stroke="#f472b6" stroke-opacity="0.3" />
+  <rect x="745" y="485" width="220" height="12" rx="6" fill="url(#accent1)" />
+  <rect x="745" y="515" width="280" height="12" rx="6" fill="#22d3ee" opacity="0.6" />
+  <rect x="745" y="545" width="160" height="12" rx="6" fill="#f472b6" opacity="0.7" />
+</svg>

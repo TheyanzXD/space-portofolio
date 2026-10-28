@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="55%" stop-color="#0b0720" />
+      <stop offset="100%" stop-color="#05030f" />
+    </radialGradient>
+    <linearGradient id="suitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="visorGrad" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="45%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="rimLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bgGrad)" />
+  <!-- Background starfield & nebula rings -->
+  <circle cx="300" cy="260" r="210" fill="none" stroke="url(#rimLight)" stroke-width="1.5" stroke-dasharray="6 10" opacity="0.4" />
+  <circle cx="300" cy="260" r="170" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.2" />
+  <circle cx="120" cy="110" r="2" fill="#f8fafc" opacity="0.8" />
+  <circle cx="480" cy="140" r="2.5" fill="#22d3ee" opacity="0.9" />
+  <circle cx="510" cy="390" r="1.8" fill="#f472b6" opacity="0.7" />
+  <circle cx="95" cy="420" r="2" fill="#a78bfa" opacity="0.7" />
+  <!-- Astronaut / Creative Engineer Silhouette -->
+  <path d="M140 600 C145 455 205 400 300 400 C395 400 455 455 460 600 Z" fill="url(#suitGrad)" stroke="url(#rimLight)" stroke-width="3" />
+  <!-- Collar & Telemetry Chest Unit -->
+  <ellipse cx="300" cy="405" rx="85" ry="24" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <rect x="245" y="455" width="110" height="70" rx="12" fill="#090d16" stroke="#8b5cf6" stroke-width="2" />
+  <line x1="265" y1="478" x2="315" y2="478" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" />
+  <line x1="265" y1="495" x2="335" y2="495" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" />
+  <circle cx="335" cy="478" r="5" fill="#f472b6" />
+  <!-- Helmet Outer Shell -->
+  <circle cx="300" cy="260" r="112" fill="#1e293b" stroke="url(#rimLight)" stroke-width="4" />
+  <!-- Helmet Ear Modules -->
+  <rect x="174" y="235" width="18" height="52" rx="8" fill="#334155" stroke="#22d3ee" stroke-width="1.5" />
+  <rect x="408" y="235" width="18" height="52" rx="8" fill="#334155" stroke="#f472b6" stroke-width="1.5" />
+  <line x1="417" y1="235" x2="417" y2="175" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" />
+  <circle cx="417" cy="172" r="5" fill="#22d3ee" />
+  <!-- Reflective Shield Visor -->
+  <rect x="210" y="195" width="180" height="125" rx="60" fill="url(#visorGrad)" stroke="#e2e8f0" stroke-width="2" />
+  <!-- Visor Glint & HUD Reflection -->
+  <path d="M235 218 C265 205 310 205 345 218" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.65" />
+  <path d="M250 285 L280 265 L310 278 L350 248" fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.55" />
+</svg>

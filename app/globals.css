@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --bg-deep: #05030f;
+  --bg-mid: #0b0720;
+  --bg-soft: #130c33;
+  --primary: #8b5cf6;
+  --primary-glow: #a78bfa;
+  --secondary: #22d3ee;
+  --accent: #f472b6;
+  --warning: #fbbf24;
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --card-glass: rgba(255, 255, 255, 0.04);
+}
+
+@layer base {
+  html {
+    background-color: var(--bg-deep);
+    color: var(--text-main);
+    scroll-behavior: smooth;
+    font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: var(--bg-deep);
+    color: var(--text-main);
+    min-height: 100svh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: rgba(34, 211, 238, 0.28);
+    color: #ffffff;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
+
+.font-sans {
+  font-family: var(--font-sans), sans-serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), monospace;
+}
+
+/* Sembunyikan bilah gulir pada daftar horizontal / marquee */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Hormati prefers-reduced-motion untuk aksesibilitas penuh */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050816" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg2)" />
+  <circle cx="600" cy="337" r="280" fill="#8b5cf6" opacity="0.08" />
+  <!-- Left Mobile Device Mockup -->
+  <rect x="260" y="75" width="300" height="525" rx="38" fill="#090d16" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="3" />
+  <rect x="285" y="130" width="250" height="145" rx="18" fill="url(#cardGrad)" />
+  <text x="310" y="175" fill="#05030f" font-family="monospace" font-weight="bold" font-size="14">HYPERION QUANTUM PAY</text>
+  <text x="310" y="235" fill="#ffffff" font-family="monospace" font-weight="bold" font-size="28">Rp 428.500.000</text>
+  <rect x="285" y="300" width="250" height="70" rx="12" fill="#131c31" />
+  <circle cx="320" cy="335" r="16" fill="#22d3ee" opacity="0.3" />
+  <rect x="350" y="322" width="120" height="10" rx="5" fill="#e2e8f0" />
+  <rect x="350" y="342" width="80" height="8" rx="4" fill="#64748b" />
+  <rect x="285" y="388" width="250" height="70" rx="12" fill="#131c31" />
+  <circle cx="320" cy="423" r="16" fill="#f472b6" opacity="0.3" />
+  <rect x="350" y="410" width="140" height="10" rx="5" fill="#e2e8f0" />
+  <rect x="350" y="430" width="90" height="8" rx="4" fill="#64748b" />
+  <!-- Right Analytics Card -->
+  <rect x="610" y="140" width="360" height="395" rx="28" fill="#0b0f1f" stroke="#a78bfa" stroke-opacity="0.4" stroke-width="2" />
+  <text x="650" y="195" fill="#94a3b8" font-family="sans-serif" font-size="15">ALOKASI PORTOFOLIO DIGITAL</text>
+  <circle cx="790" cy="325" r="95" fill="none" stroke="#1e293b" stroke-width="24" />
+  <circle cx="790" cy="325" r="95" fill="none" stroke="#22d3ee" stroke-width="24" stroke-dasharray="380 600" stroke-linecap="round" />
+  <circle cx="790" cy="325" r="95" fill="none" stroke="#8b5cf6" stroke-width="24" stroke-dasharray="160 600" stroke-dashoffset="-400" stroke-linecap="round" />
+  <text x="745" y="335" fill="#f8fafc" font-family="monospace" font-weight="bold" font-size="26">+34.8%</text>
+</svg>
